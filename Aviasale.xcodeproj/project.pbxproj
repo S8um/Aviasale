@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A5876825F28CDE004BA62D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5876725F28CDE004BA62D /* SecondViewController.m */; };
 		84A75CB525EAD30900D19849 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A75CB425EAD30900D19849 /* AppDelegate.m */; };
 		84A75CBB25EAD30900D19849 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A75CBA25EAD30900D19849 /* FirstViewController.m */; };
-		84A75CC125EAD30900D19849 /* Aviasale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A75CBF25EAD30900D19849 /* Aviasale.xcdatamodeld */; };
 		84A75CC325EAD30A00D19849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A75CC225EAD30A00D19849 /* Assets.xcassets */; };
 		84A75CC625EAD30A00D19849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A75CC425EAD30A00D19849 /* LaunchScreen.storyboard */; };
 		84A75CC925EAD30A00D19849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A75CC825EAD30A00D19849 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A5876625F28CDE004BA62D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84A5876725F28CDE004BA62D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		84A75CB025EAD30900D19849 /* Aviasale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviasale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A75CB325EAD30900D19849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A75CB425EAD30900D19849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84A75CB925EAD30900D19849 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		84A75CBA25EAD30900D19849 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		84A75CC025EAD30900D19849 /* Aviasale.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aviasale.xcdatamodel; sourceTree = "<group>"; };
 		84A75CC225EAD30A00D19849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A75CC525EAD30A00D19849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A75CC725EAD30A00D19849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,11 +63,12 @@
 				84A75CB425EAD30900D19849 /* AppDelegate.m */,
 				84A75CB925EAD30900D19849 /* FirstViewController.h */,
 				84A75CBA25EAD30900D19849 /* FirstViewController.m */,
+				84A5876625F28CDE004BA62D /* SecondViewController.h */,
+				84A5876725F28CDE004BA62D /* SecondViewController.m */,
 				84A75CC225EAD30A00D19849 /* Assets.xcassets */,
 				84A75CC425EAD30A00D19849 /* LaunchScreen.storyboard */,
 				84A75CC725EAD30A00D19849 /* Info.plist */,
 				84A75CC825EAD30A00D19849 /* main.m */,
-				84A75CBF25EAD30900D19849 /* Aviasale.xcdatamodeld */,
 			);
 			path = Aviasale;
 			sourceTree = "<group>";
@@ -139,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A5876825F28CDE004BA62D /* SecondViewController.m in Sources */,
 				84A75CC925EAD30A00D19849 /* main.m in Sources */,
 				84A75CBB25EAD30900D19849 /* FirstViewController.m in Sources */,
 				84A75CB525EAD30900D19849 /* AppDelegate.m in Sources */,
-				84A75CC125EAD30900D19849 /* Aviasale.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,19 +332,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		84A75CBF25EAD30900D19849 /* Aviasale.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84A75CC025EAD30900D19849 /* Aviasale.xcdatamodel */,
-			);
-			currentVersion = 84A75CC025EAD30900D19849 /* Aviasale.xcdatamodel */;
-			path = Aviasale.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 84A75CA825EAD30900D19849 /* Project object */;
 }
